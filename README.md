@@ -61,6 +61,7 @@ django-admin --version
 ```
 ifconfig
 ```
+先記下主機的IP位址
 
 
 ## 基本web框架應用
