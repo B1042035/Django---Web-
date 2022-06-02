@@ -162,6 +162,8 @@ django-admin startproject files
 ```
 ls files/
 ```
+從上面的輸出可以看到項目底下有一個 manage.py
+
 移至剛剛新建的第一個項目
 ```
 cd files/
@@ -171,6 +173,30 @@ cd files/
 ```
 python3 manage.py migrate
 ```
+圖片
+代表啟動成功
+
+### 創建管理用戶
+```
+python3 manage.py createsuperuser
+```
+圖片
+輸入用戶名（將其保留為空白可以維持使用ubuntu當下的用戶名稱），電子郵件和密碼（密碼不能只有數字）
+
+### 在配置中修改ALLOWED_HOSTS
+```
+nano ~/entreunosycero/entreunosyceros/settings.py
+```
+圖片
+我們必須修改框架配置中的指令之一，ALLOWED_HOSTS指令定義了可用於連接到框架的地址或域名白名單。將我們主機的IP位址更改上去
+
+### 啟動服務器
+```
+python3 manage.py runserver 0.0.0.0:8000
+```
+0.0.0.0請更改成主機IP位址
+Django服務器將啟動（若要停止服務器，請按CTRL + C）
+
 
 ## 參考資料
  [https://ithelp.ithome.com.tw/articles/10225447](https://ithelp.ithome.com.tw/articles/10225447)
