@@ -4,7 +4,7 @@ b1042035 b1042036 b1042044
 
 * [Web框架](#Web框架)
 * [Web框架](#apache)
-* [在ubuntu中安裝Django Web Framework](#在ubuntu中安裝Django Web Framework)
+* [在ubuntu中安裝Django](#在ubuntu中安裝Django Web Framework)
   - [ubuntu更新](#ubuntu更新)
   - [使用pip安裝](#使用pip安裝)
   - [查看apache的狀態](#查看apache的狀態)
