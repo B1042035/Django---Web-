@@ -3,7 +3,7 @@ b1042035 b1042036 b1042044
 
 
 * [Web框架](#apache)
-* [Web框架pache ](#Web框架)
+* [Web框架](#Web框架)
 * [在ubuntu中安裝Django](#在ubuntu中安裝Django)
   - [網路更改橋接介面卡](#網路更改橋接介面卡)
   - [更新](#更新)
