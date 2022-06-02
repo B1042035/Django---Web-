@@ -86,14 +86,18 @@ cd files/
 ```
 python3 manage.py migrate
 ```
+
 圖片
+
 代表啟動成功
 
 ### 創建管理用戶
 ```
 python3 manage.py createsuperuser
 ```
+
 圖片
+
 輸入用戶名（將其保留為空白可以維持使用ubuntu當下的用戶名稱），電子郵件和密碼（密碼不能只有數字）
 
 ### 在配置中修改ALLOWED_HOSTS
@@ -101,7 +105,9 @@ python3 manage.py createsuperuser
 nano ~/files/files/settings.py
 ```
 files請更改為剛剛取的檔名
+
 圖片
+
 我們必須修改框架配置中的指令之一，ALLOWED_HOSTS指令定義了可用於連接到框架的地址或域名白名單。將我們主機的IP位址更改上去
 
 ### 啟動服務器
