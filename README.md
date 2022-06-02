@@ -15,15 +15,9 @@ b1042035 b1042036 b1042044
 * [參考資料](#參考資料)
 
 ## web框架
-網頁伺服器程式都需要從網路接受HTTP請求，然後提供HTTP回覆給請求者。HTTP回覆一般包含一個HTML檔案，有時也可以包含純文字檔案、圖像或其他類型的檔案。
+Django 是一個由 Python 編寫的一個開放原始程式碼的 Web 應用框架。
 
-一般來說這些檔案都儲存在網頁伺服器的本地檔案系統裡，伺服器會簡單的把URL對照到本地檔案系統中。當正確安裝和設定好網頁伺服器軟體，伺服器管理員會從伺服器軟體放置檔案的地方指定一個本地路徑名為根目錄。
-
-- Web Server 的基本功能流程如下：
-
-1. web server收到瀏覽器所傳來的網址
-2. 取出相對應的檔案
-3. 將檔案內容傳回給瀏覽器
+使用 Django，只要很少的代碼，Python 的程式開發人員就可以輕鬆地完成一個正式網站所需要的大部分內容，並進一步開發出全功能的 Web 服務 Django 本身基於 MVC 模型，即 Model（模型）+ View（視圖）+ Controller（控制器）設計模式，MVC 模式使後續對程式的修改和擴展簡化，並且使程式某一部分的重複利用成為可能。
 
 ![1652793397817](https://user-images.githubusercontent.com/105623904/168819988-9acac526-bd0c-470f-ac2f-b70d7558c400.jpg)
 
@@ -160,9 +154,22 @@ nano /home/b1042303/public_html/index.html
 ## 基本django應用
 
 ### 創建新項目
-
+創建一個新項目（files可更改為想要的檔案名）
 ```
-ifconfig
+django-admin startproject files
+```
+運行項目
+```
+ls files/
+```
+移至剛剛新建的第一個項目
+```
+cd files/
+```
+
+### 啟動數據庫
+```
+python3 manage.py migrate
 ```
 
 ## 參考資料
