@@ -94,8 +94,9 @@ python3 manage.py createsuperuser
 
 ### 在配置中修改ALLOWED_HOSTS
 ```
-nano ~/entreunosycero/entreunosyceros/settings.py
+nano ~/files/files/settings.py
 ```
+files請更改為剛剛取的檔名
 圖片
 我們必須修改框架配置中的指令之一，ALLOWED_HOSTS指令定義了可用於連接到框架的地址或域名白名單。將我們主機的IP位址更改上去
 
