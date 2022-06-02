@@ -103,7 +103,8 @@ python3 manage.py createsuperuser
 
 ![創建用戶](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%89%B5%E5%BB%BA%E7%94%A8%E6%88%B6.jpeg)
 
-輸入用戶名（將其保留為空白可以維持使用ubuntu當下的用戶名稱），電子郵件和密碼（密碼不能只有數字）
+輸入用戶名（將其保留為空白可以維持使用ubuntu當下的用戶名稱），電子郵件和密碼
+如圖 終端機會給予設定帳號密碼的提示（密碼不能只有數字）
 
 ### 在配置中修改ALLOWED_HOSTS
 ```
