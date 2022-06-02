@@ -30,7 +30,7 @@ b1042035 b1042036 b1042044
 ## Apache
 Apache HTTP Server（簡稱Apache）是Apache軟體基金會的一個開放原始碼的網頁伺服器軟體，可以在大多數電腦作業系統中運行。由於其跨平台和安全性，被廣泛使用，是最流行的Web伺服器軟體之一，維基百科網站的伺服器就使用了Apache。
 
-## 在virtualbox中安裝web-server
+## 在ubuntu中安裝Django
 
 ### 網路更改橋接介面卡 
 
