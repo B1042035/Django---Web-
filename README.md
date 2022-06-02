@@ -2,12 +2,11 @@
 b1042035 b1042036 b1042044
 
 
-* [Web框架](#apache)
 * [Web框架](#Web框架)
-* [在ubuntu中安裝Django](#在ubuntu中安裝Django)
-  - [網路更改橋接介面卡](#網路更改橋接介面卡)
-  - [更新](#更新)
-  - [安裝apache](#安裝apache)
+* [Web框架](#apache)
+* [在ubuntu中安裝Django Web Framework](#在ubuntu中安裝Django Web Framework)
+  - [ubuntu更新](#ubuntu更新)
+  - [使用pip安裝](#使用pip安裝)
   - [查看apache的狀態](#查看apache的狀態)
   - [查看ip](查看ip)
   - [修改主網頁](#修改主網頁)
@@ -31,25 +30,22 @@ b1042035 b1042036 b1042044
 ## Apache
 Apache HTTP Server（簡稱Apache）是Apache軟體基金會的一個開放原始碼的網頁伺服器軟體，可以在大多數電腦作業系統中運行。由於其跨平台和安全性，被廣泛使用，是最流行的Web伺服器軟體之一，維基百科網站的伺服器就使用了Apache。
 
-## 在ubuntu中安裝Django
-
-### 網路更改橋接介面卡 
-
-![網路改橋接介面卡1](https://user-images.githubusercontent.com/105623904/168826654-e3007f0a-a4e8-491a-bdd2-975579380cfe.jpg)
-![網路改橋接介面卡2](https://user-images.githubusercontent.com/105623904/168826660-e4cd41aa-0fd2-4035-83b1-448bc8372643.jpg)
+## 在ubuntu中安裝Django Web Framework
 
 
-### 更新
+### ubuntu更新
 
 ```
 sudo apt-get update 
 sudo apt-get upgrade
+sudo 
 ```
 
-### 安裝apache
+### 使用pip安裝
+使用Python 3安裝Django
 
 ```
-sudo apt install apache2
+sudo pip3 install django
 ```
 
 ### 查看apache的狀態
