@@ -3,7 +3,7 @@ b1042035 b1042036 b1042044
 
 * [python Web框架](#python Web框架)
 * [Apache ](#apache)
-* [在virtualbox中安裝web-server](#在virtualbox中安裝web-server)
+* [在ubuntu中安裝Django](#在ubuntu中安裝Django)
   - [網路更改橋接介面卡](#網路更改橋接介面卡)
   - [更新](#更新)
   - [安裝apache](#安裝apache)
