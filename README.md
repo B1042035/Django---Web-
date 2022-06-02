@@ -56,7 +56,7 @@ django-admin --version
 
 
 
-### 查看ip
+### 查看ip位址
 
 ```
 ifconfig
