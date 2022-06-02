@@ -104,6 +104,7 @@ python3 manage.py createsuperuser
 ![創建用戶](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%89%B5%E5%BB%BA%E7%94%A8%E6%88%B6.jpeg)
 
 輸入用戶名（將其保留為空白可以維持使用ubuntu當下的用戶名稱），電子郵件和密碼
+
 如圖 終端機會給予設定帳號密碼的提示（密碼不能只有數字）
 
 ### 在配置中修改ALLOWED_HOSTS
@@ -114,13 +115,16 @@ files請更改為剛剛取的檔名
 
 ![修改IP](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E4%BF%AE%E6%94%B9IP.jpg)
 
-我們必須修改框架配置中的指令之一，ALLOWED_HOSTS指令定義了可用於連接到框架的地址或域名白名單。將我們主機的IP位址更改上去
+我們必須修改框架配置中的指令之一，ALLOWED_HOSTS指令定義了可用於連接到框架的地址或域名白名單
+
+請將我們主機的IP位址更改上去
 
 ### 啟動服務器
 ```
 python3 manage.py runserver 0.0.0.0:8000
 ```
 0.0.0.0請更改成主機IP位址
+
 Django服務器將啟動（若要停止服務器，請按CTRL + C）
 
 ![啟動服務器](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%95%9F%E5%8B%95%E6%9C%8D%E5%8B%99%E5%99%A8.jpeg)
