@@ -54,6 +54,7 @@ sudo pip3 install django
 django-admin --version
 ```
 
+![檢查安裝與版本](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E6%AA%A2%E6%9F%A5%E5%AE%89%E8%A3%9D%E8%88%87%E7%89%88%E6%9C%AC.jpeg)
 
 
 ### 查看ip位址
@@ -71,6 +72,9 @@ ifconfig
 ```
 django-admin startproject files
 ```
+![創建新項目](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%89%B5%E5%BB%BA%E6%96%B0%E9%A0%85%E7%9B%AE.jpeg)
+
+
 運行項目
 ```
 ls files/
@@ -126,7 +130,9 @@ Django服務器將啟動（若要停止服務器，請按CTRL + C）
 0.0.0.0:8000
 ```
 0.0.0.0請更改成主機IP位址
+
 ![訪問網頁](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E8%A8%AA%E5%95%8F%E7%B6%B2%E9%A0%81.jpeg)
+
 看到畫面代表框架正常工作
 
 ### 訪問服務器管理頁面
@@ -138,8 +144,11 @@ Django服務器將啟動（若要停止服務器，請按CTRL + C）
 
 ![登入](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E7%99%BB%E5%85%A5.jpeg)
 
+
 輸入剛剛設定的帳號密碼
+
 ![進入管理頁面](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E9%80%B2%E5%85%A5%E7%AE%A1%E7%90%86%E9%A0%81%E9%9D%A2.jpeg)
+
 成功進入web框架的管理頁面
 
 
