@@ -22,7 +22,10 @@ Django 是一個由 Python 編寫的一個開放原始程式碼的 Web 應用框
 ![1652793397817](https://user-images.githubusercontent.com/105623904/168819988-9acac526-bd0c-470f-ac2f-b70d7558c400.jpg)
 
 ## Apache
-Apache HTTP Server（簡稱Apache）是Apache軟體基金會的一個開放原始碼的網頁伺服器軟體，可以在大多數電腦作業系統中運行。由於其跨平台和安全性，被廣泛使用，是最流行的Web伺服器軟體之一，維基百科網站的伺服器就使用了Apache。
+Django 是一個由 Python 編寫的一個開放原始程式碼的 Web 應用框架。
+Django的主要目標是簡化資料庫驅動的網站的開發。Django 注重組件的重用性和「可插拔性」，敏捷開發和DRY法則（Don't Repeat Yourself）。在Django中普遍使用的語言是Python，甚至包括設定檔和資料模型。
+
+使用 Django，只要很少的代碼，Python 的程式開發人員就可以輕鬆地完成一個正式網站所需要的大部分內容，並進一步開發出全功能的 Web 服務 Django 本身基於 MVC 模型，即 Model（模型）+ View（視圖）+ Controller（控制器）設計模式，MVC 模式使後續對程式的修改和擴展簡化，並且使程式某一部分的重複利用成為可能。
 
 ## 使用pip在ubuntu上安裝django web framework
 
@@ -31,7 +34,7 @@ Apache HTTP Server（簡稱Apache）是Apache軟體基金會的一個開放原�
 ```
 sudo apt-get update 
 sudo apt-get upgrade
-sudo 
+sudo apt install net-tools
 ```
 
 ### 使用pip安裝
