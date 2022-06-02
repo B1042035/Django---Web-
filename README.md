@@ -3,7 +3,7 @@ b1042035 b1042036 b1042044
 
 
 * [Web框架](#web框架)
-* [Web框架](#apache)
+* [](#apache)
 
 * [使用pip在Ubuntu上安裝Django Web Framework](#ubuntu更新)
   - [ubuntu更新](#ubuntu更新)
@@ -16,8 +16,11 @@ b1042035 b1042036 b1042044
 
 ## web框架
 Web應用框架（Web application framework）是一種電腦軟體框架，用來支援動態網站、網路應用程式及網路服務的開發。這種框架有助於減輕網頁開發時共通性活動的工作負荷，例如許多框架提供資料庫存取介面、標準模板以及會話管理等，可提昇程式碼的可再用性。
-	
-	-
+
+主要分成三種類
+ 。模型 - 視圖 - 控制器（MVC（Model view controller））
+ 。內容管理系統
+ 。三部分組織模式
 
 ## Apache
 Django 是一個由 Python 編寫的一個開放原始程式碼的 Web 應用框架。
