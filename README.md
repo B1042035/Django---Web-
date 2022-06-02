@@ -50,7 +50,7 @@ sudo pip3 install django
 ```
 django-admin --version
 ```
-![apache狀態圖](https://user-images.githubusercontent.com/105623904/168845254-3f251372-32a8-47e1-9724-94f1e8fc9c4b.jpg)
+
 
 
 ### 查看ip
@@ -131,5 +131,6 @@ Django服務器將啟動（若要停止服務器，請按CTRL + C）
 
 
 ## 參考資料
- [https://ithelp.ithome.com.tw/articles/10225447](https://ithelp.ithome.com.tw/articles/10225447)
- [https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8](https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8)
+ [https://zh.wikipedia.org/wiki/Django](https://zh.wikipedia.org/wiki/Django)
+ [https://zh.wikipedia.org/zh-tw/Web%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6](https://zh.wikipedia.org/zh-tw/Web%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6)
+ [https://ubunlog.com/zh-TW/django-framework-instalacion-ubuntu/#Iniciar_la_base_de_datos](https://ubunlog.com/zh-TW/django-framework-instalacion-ubuntu/#Iniciar_la_base_de_datos)
