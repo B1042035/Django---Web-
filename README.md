@@ -72,13 +72,13 @@ ifconfig
 ```
 django-admin startproject files
 ```
-![創建新項目](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%89%B5%E5%BB%BA%E6%96%B0%E9%A0%85%E7%9B%AE.jpeg)
-
 
 運行項目
 ```
 ls files/
 ```
+![創建新項目](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E5%89%B5%E5%BB%BA%E6%96%B0%E9%A0%85%E7%9B%AE.jpeg)
+
 從上面的輸出可以看到項目底下有一個 manage.py
 
 移至剛剛新建的第一個項目
