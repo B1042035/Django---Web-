@@ -45,6 +45,7 @@ sudo apt install net-tools
 使用Python 3安裝Django
 
 ```
+sudo apt install python3-django
 sudo pip3 install django
 ```
 
