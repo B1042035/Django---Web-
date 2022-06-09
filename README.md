@@ -3,7 +3,7 @@ b1042035楊舒晴 b1042036蔣淑雅 b1042044崔芸榕
 
 
 * [Web框架](#web框架)
-* [Django](#apache)
+* [Django](#django)
 
 * [使用pip在Ubuntu上安裝Django Web Framework](#ubuntu更新)
   - [ubuntu更新](#ubuntu更新)
@@ -25,7 +25,7 @@ Web應用框架（Web application framework）是一種電腦軟體框架，用�
 
 主要分成三種類：模型 - 視圖 - 控制器（MVC（Model view controller））、內容管理系統、三部分組織模式。
 
-## Apache
+## Django
 Django 是一個由 Python 編寫的一個開放原始程式碼的 Web 應用框架。
 Django的主要目標是簡化資料庫驅動的網站的開發。Django 注重組件的重用性和「可插拔性」，敏捷開發和DRY法則（Don't Repeat Yourself）。在Django中普遍使用的語言是Python，甚至包括設定檔和資料模型。
 
