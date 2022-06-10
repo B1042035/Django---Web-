@@ -160,6 +160,7 @@ Django服務器將啟動（若要停止服務器，請按CTRL + C）
 
 
 ## 影片網址
+實作影片網址
 [https://youtu.be/kRpCTgAxE2s](https://youtu.be/kRpCTgAxE2s)
 
 
