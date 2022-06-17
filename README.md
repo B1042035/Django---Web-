@@ -18,6 +18,11 @@ b1042035楊舒晴 b1042036蔣淑雅 b1042044崔芸榕
   - [啟動服務器](#啟動服務器)
   - [訪問網頁](#訪問網頁)
   - [訪問服務器管理頁面](#訪問服務器管理頁面)
+* [web框架新增內容](#web框架新增內容)
+  - [建立app](#建立app)
+  - [創建模型](#創建模型)
+  - [admin註冊](#admin註冊)
+  - [在管理頁面新增內容](#在管理頁面新增內容)
 * [影片網址](#影片網址)
 * [參考資料](#參考資料)
 
@@ -162,6 +167,50 @@ Django服務器將啟動（若要停止服務器，請按CTRL + C）
 ## 影片網址
 實作影片網址
 [https://youtu.be/kRpCTgAxE2s](https://youtu.be/kRpCTgAxE2s)
+
+## web框架新增內容
+### 建立app
+CTRL+C 關閉server頁面後，建立一個名為"Post"的App
+```
+./manage.py startapp post
+```
+
+到setting.py找到 INSTALLED_APPS 這個 list， 加入 "post"
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    # 加入 post
+    'post'
+]
+```
+即註冊完app
+
+### 創建模型
+同上，進入 models.py 建立一個簡單的範本，裡面只有標題跟內容
+```
+from django.db import models
+
+class Post(models.Model):
+    title = models.CharField('title', max_length=20)
+    content = models.CharField('content', max_length=200)
+```
+設定title和content是一個 Character Field，用來存放文字，而 max_length 是用來設定最多幾個字
+
+接著把資料結構創建到資料庫中
+```
+./manage.py makemigrations post
+./manage.py migrate
+```
+makemigrations 會創建一些 ORM 的 SQL 指令讓等一下的 migrate執行（用來把資料結構input到資料庫中），migrate就會執行這個動作
+
+資料庫結構就會和 model 同步
+
+### admin註冊
 
 
 ## 參考資料
