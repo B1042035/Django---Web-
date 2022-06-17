@@ -211,6 +211,18 @@ makemigrations 會創建一些 ORM 的 SQL 指令讓等一下的 migrate執行�
 資料庫結構就會和 model 同步
 
 ### admin註冊
+修改 admins.py，將我們的 app 表單註冊到後台
+```
+from django.contrib import admin
+from .models import Post
+
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('id', 'title', 'content')
+    search_fields = ('title', 'content')
+
+admin.site.register(Post, PostAdmin)
+```
+
 
 
 ## 參考資料
