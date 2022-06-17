@@ -230,10 +230,15 @@ admin.site.register(Post, PostAdmin)
 ![admin](https://github.com/B1042035/Web-framework-photo/blob/main/images/admin.jpeg)
 
 ### 在管理頁面新增內容
-選擇'Add'
+重新開啟管理頁面並選擇'Add'
+![新的管理頁面](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E6%96%B0%E7%9A%84%E7%AE%A1%E7%90%86%E9%A0%81%E9%9D%A2.jpeg)
+
 
 即可新增文章
+![新增文章](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0.jpeg)
 
+新增文章成功
+![成功新增文章](https://github.com/B1042035/Web-framework-photo/blob/main/images/%E6%88%90%E5%8A%9F%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0.jpeg)
 
 
 ## 參考資料
