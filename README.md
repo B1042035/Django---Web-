@@ -223,6 +223,11 @@ class PostAdmin(admin.ModelAdmin):
 admin.site.register(Post, PostAdmin)
 ```
 
+### 在管理頁面新增內容
+選擇'Add'
+
+即可新增文章
+
 
 
 ## 參考資料
