@@ -188,6 +188,8 @@ INSTALLED_APPS = [
     'post'
 ]
 ```
+![setting](https://github.com/B1042035/Web-framework-photo/blob/main/images/setting.jpeg)
+
 即註冊完app
 
 ### 創建模型
@@ -200,6 +202,8 @@ class Post(models.Model):
     content = models.CharField('content', max_length=200)
 ```
 設定title和content是一個 Character Field，用來存放文字，而 max_length 是用來設定最多幾個字
+
+![models](https://github.com/B1042035/Web-framework-photo/blob/main/images/models.png)
 
 接著把資料結構創建到資料庫中
 ```
@@ -222,6 +226,8 @@ class PostAdmin(admin.ModelAdmin):
 
 admin.site.register(Post, PostAdmin)
 ```
+
+![admin](https://github.com/B1042035/Web-framework-photo/blob/main/images/admin.jpeg)
 
 ### 在管理頁面新增內容
 選擇'Add'
